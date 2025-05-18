@@ -7,7 +7,7 @@ const Header = () => {
             <ul className='flex gap-5'>
                 <NavLink to='/'>Home</NavLink>
                 <NavLink to='/addCoffee'>AddCoffee</NavLink>
-                <NavLink to='/updateCoffee'>UpdateCoffee</NavLink>
+                {/* <NavLink to='/updateCoffee'>UpdateCoffee</NavLink> */}
             </ul>
         </div>
     );
